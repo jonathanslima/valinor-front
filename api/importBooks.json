@@ -1,0 +1,418 @@
+[
+	{
+		"livro" : "Zona Morta",
+		"autor" : "Stephen King",
+		"imagem" : "https://i.ibb.co/Q9nCbLr/zona-morta.jpg",
+		"detalhes": {
+			"paginas" : "389",
+			"idioma" : "pt-br",
+			"editora" : "Abril Cultural",
+			"nota" : "9/10",
+			"serie" : "Best Sellers"
+		},
+		"status" : "H",
+		"lido" : "S",
+		"genero" : ["Terror"],
+		"sinopse" : "Após passar cinco anos em coma profundo, Johnny Smith, um simples professor, acorda de seu estado inconsciente não reconhecendo certos objetos. Segundo os médicos, Johnny está com uma área de seu cérebro danificada, a qual eles chamam de Zona Morta. Entretanto, este será o menor dos problemas na vida de Johnny daqui para frente. Ele agora é capaz de, com um simples aperto de mão, saber fatos do passado das pessoas e prever seu futuro. Para aqueles que estão a sua volta, esta é uma dádiva. Para Johnny, não passa de uma maldição. Com isso, o professor torna-se popular, atraindo um número crescente de pessoas em busca de previsões. Mas, ao apertar a mão de Greg Stillson, um inescrupuloso político norte-americano, Johnny será atormentado por uma visão apocalíptica. Ele sxerá, então, obrigado a tomar uma decisão que pode mudar não só a sua, como a história de todo o mundo. "
+	},
+	{
+		"livro" : "Christine",
+		"autor" : "Stephen King",
+		"imagem" : "https://i.ibb.co/RyWrK4Y/christine.jpg",
+		"detalhes": {
+			"paginas" : "552",
+			"idioma" : "pt-br",
+			"editora" : "Nova Cultural",
+			"nota" : "N/A",
+			"serie" : "Best Sellers"
+		},
+		"status" : "H",
+		"lido" : "N",
+		"genero" : ["Terror"],
+		"sinopse" : "Arnie Cunnigham era um perdedor. Rosto coberto de espinhas, desajeitado com as garotas, magro demais, passava os dias pelos corredores da escola, tentando fugir da gozação dos colegas. Isso até Christine entrar em sua vida. Amor à primeira vista. A partir desse dia, o mundo ganha novo sentido. Tudo o que Arnie quer é estar junto de Christine. Mas não se espere um novo Romeu e Julieta, tratando-se da mente assombrosa de Stephen King. Christine é um carro. Um Plymouth Fury 1958. Um feitiço sobre rodas que se apodera de Arnie e faz dele alguém diferente. Há algo poderosamente maligno solto pelas estradas de Libertyville. Uma força sobrenatural que vai deixando seu rastro de sangue por onde passa. Embarque nessa viagem assustadora e boa sorte."
+	},
+	{
+		"livro" : "Sombras da Noite",
+		"autor" : "Stephen King",
+		"imagem" : "https://i.ibb.co/S7Sqvfy/sombras-da-noite.jpg",
+		"detalhes": {
+			"paginas" : "405",
+			"idioma" : "pt-br",
+			"editora" : "Editora Globo",
+			"nota" : "N/A",
+			"serie" : "Série Ouro Globo"
+		},
+		"status" : "H",
+		"lido" : "P",
+		"genero" : ["Terror", "Contos"],
+		"sinopse" : "Além de 'As Crianças do Milharal', outros quatro contos do escritor presentes em 'Sombras da Noite' foram adaptados para o cinema: 'O Homem do Cortador de Grama' ('O Passageiro do Futuro'), 'A Máquina de Passar Roupa' ('Mangler: O Grito de Terror'), 'Último turno' ('A Criatura do Cemitério') e 'Às Vezes Eles Voltam' (filme homônimo). O livro reúne vinte contos clássicos que, mais uma vez, reafirmam Stephen King como o mais prolífico e talentoso autor do gênero no mundo."
+	},
+	{
+		"livro" : "It",
+		"autor" : "Stephen King",
+		"imagem" : "https://i.ibb.co/KGbrQxh/it.jpg",
+		"detalhes": {
+			"paginas" : "1104",
+			"idioma" : "pt-br",
+			"editora" : "Suma das Letras",
+			"nota" : "N/A",
+			"serie" : "-"
+		},
+		"status" : "H",
+		"lido" : "N",
+		"genero" : ["Terror", "Aventura", "Suspense"],
+		"sinopse" : "Durante as férias de 1958, em uma pacata cidadezinha do Maine, Bill, Richie, Stan, Mike, Eddie, Ben e Beverly aprenderam o real sentido da amizade, do amor, da confiança... e do medo. O mais profundo e tenebroso medo. Naquele verão, eles enfrentaram pela primeira vez a Coisa, um ser sobrenatural e maligno que deixou terríveis marcas de sangue em Derry. Quase trinta anos depois, os amigos voltam a se encontrar. Uma nova onda de terror tomou a pequena cidade. Mike Hanlon, o único que permaneceu em Derry, dá o sinal. Precisam unir forças novamente. A Coisa volta a atacar e eles devem cumprir a promessa selada com sangue que fizeram quando crianças. Só eles têm a chave do enigma. Só eles sabem o que se esconde nas entranhas de Derry. O tempo é curto, mas somente eles podem vencer a Coisa."
+	},
+	{
+		"livro" : "Outsider",
+		"autor" : "Stephen King",
+		"imagem" : "https://i.ibb.co/ncz43jD/outsider.jpg",
+		"detalhes": {
+			"paginas" : "523",
+			"idioma" : "pt-br",
+			"editora" : "Suma das Letras",
+			"nota" : "8/10",
+			"serie" : "-"
+		},
+		"status" : "H",
+		"lido" : "S",
+		"genero" : ["Terror"],
+		"sinopse" : "O corpo de um menino de onze anos é encontrado abandonado no parque de Flint City, brutalmente assassinado. Testemunhas e impressões digitais apontam o criminoso como uma das figuras mais conhecidas da cidade — Terry Maitland, treinador da Liga Infantil de beisebol, professor de inglês, casado e pai de duas filhas.O detetive Ralph Anderson não hesita em ordenar uma prisão rápida e bastante pública, fazendo com que em pouco tempo toda a cidade saiba que o Treinador T é o principal suspeito do crime. Maitland tem um álibi, mas Anderson e o promotor público logo têm amostras de DNA para corroborar a acusação. O caso parece resolvido.Mas conforme a investigação se desenrola, a história se transforma em uma montanha-russa, cheia de tensão e suspense. Terry Maitland parece ser uma boa pessoa, mas será que isso não passa de uma máscara? A aterrorizante resposta é o que faz desta uma das histórias mais perturbadoras de Stephen King."
+	},
+	{
+		"livro" : "Dança Macabra",
+		"autor" : "Stephen King",
+		"imagem" : "https://i.ibb.co/3BD0MM9/danca-macabra.jpg",
+		"detalhes": {
+			"paginas" : "471",
+			"idioma" : "pt-br",
+			"editora" : "Francisco Alves",
+			"nota" : "N/A",
+			"serie" : "Mestres do Horror e da Fantasia"
+		},
+		"status" : "H",
+		"lido" : "N",
+		"genero" : ["Ensaio"],
+		"sinopse" : "Em Dança macabra, obra de referência sobre o gênero que o consagrou mundialmente, Stephen King irá revelar o fascínio causado pelo terror no cinema e na literatura, sem deixar de fora os quadrinhos, a televisão e o rádio. Qual foi o primeiro filme de terror a que você assistiu? Você se lembra daquele filme que o deixou com os olhos arregalados, no escuro do seu quarto, sem conseguir dormir? Que livros fizeram você sentir um frio na espinha e pular de susto ao menor ruído? Em Dança macabra, Stephen King revela como o fenômeno do horror foi explorado pelo cinema, pela literatura, pela tevê e pelas demais mídias ao longo de diferentes épocas. Da literatura gótica de Mary Shelley até o horror explícito de H. P. Lovecraft. Do terror psicológico de O bebê de Rosemary até o banho de sangue de O massacre da serra elétrica. Mas este livro vai além. Também é um emocionado tributo a todos aqueles que um dia se dedicaram à arte de apavorar plateias e leitores. "
+	},
+	{
+		"livro" : "Pesadelos e Paisagens Noturnas II",
+		"autor" : "Stephen King",
+		"imagem" : "https://i.ibb.co/6yWFCGV/Pesadelos-e-Paisagens-Noturnas-Volume-II.jpg",
+		"detalhes": {
+			"paginas" : "295",
+			"idioma" : "pt-br",
+			"editora" : "Objetiva",
+			"nota" : "N/A",
+			"serie" : "-"
+		},
+		"status" : "H",
+		"lido" : "P",
+		"genero" : ["Terror", "Drama"],
+		"sinopse" : "Em Pesadelos e paisagens noturnas - livro em dois volumes -, Stephen King reúne suas melhores novelas. Histórias “muito estranhas”, nas palavras do autor, escritas em diferentes épocas, provando sua maestria também em narrativas curtas. Com vários filmes inesquecíveis já tendo sido adaptados de suas novelas – como Um sonho de liberdade, 1408, e À espera de um milagre –, os leitores ficarão encantados de redescobrir esta coleção de clássicos. Com vinte histórias curtas de terror, um script de televisão, um ensaio e um poema, Pesadelos e paisagens noturnas contém tramas únicas e arrepiantes, que incluem desde um rock-star zumbi a brinquedos malignos e assassinos.  Esta coleção de histórias, muitas inéditas, oferece uma viagem eletrizante a um mundo de pesadelos criado pelo mestre do terror e do imaginário grotesco."
+	},
+	{
+		"livro" : "A Dança da Morte",
+		"autor" : "Stephen King",
+		"imagem" : "https://i.ibb.co/ft4676H/danca-da-morte.jpg",
+		"detalhes": {
+			"paginas" : "860",
+			"idioma" : "pt-br",
+			"editora" : "Bertrand Brasil",
+			"nota" : "N/A",
+			"serie" : "-"
+		},
+		"status" : "H",
+		"lido" : "N",
+		"genero" : ["Terror"],
+		"sinopse" : "Após um erro de computação no Departamento de Defesa, um vírus é liberado, e um milhão de contatos casuais formam uma cadeia de morte: é assim que o mundo acaba. O que surge em seu lugar é um ambiente árido, sem instituições e esvaziado de 99% da população.  É um lugar onde sobreviventes em pânico escolhem seus lados – ou são escolhidos. Os bons se apoiam nos ombros frágeis de Mãe Abigail, com seus cento e oito anos de idade, enquanto todo o mal é incorporado por um indivíduo de poderes indizíveis: Randall Flagg, o homem escuro.  Neste livro, King cria uma história épica sobre o fim da civilização e a eterna batalha entre o bem e o mal. "
+	},
+	{
+		"livro" : "Saco de Ossos",
+		"autor" : "Stephen King",
+		"imagem" : "https://i.ibb.co/XWSJKfy/saco-de-ossos.jpg",
+		"detalhes": {
+			"paginas" : "755",
+			"idioma" : "pt-br",
+			"editora" : "Objetiva",
+			"nota" : "8.5/10",
+			"serie" : "-"
+		},
+		"status" : "H",
+		"lido" : "S",
+		"genero" : ["Drama", "Suspense", "Terror"],
+		"sinopse" : "Mike Noonan é um romancista de sucesso que vê sua vida subitamente transformada com a morte da esposa, Jo. Quatro anos já se passaram e o sentimento de depressão e angústia é o mesmo. Nem o sono lhe traz alívio. Então voltar à pequena cidade de Sara Laughs parece a única saída. A cidade, no entanto, já não é a mesma. Apesar da aparente tranquilidade de sempre, a comunidade vive atormentada pelo domínio do milionário Max Devore, que não mede esforços para atingir seu grande objetivo: arrancar a neta de três anos da guarda da mãe. Pouco a pouco, Mike se envolve nessa guerra. Pouco a pouco, Mike redescobre a paixão. "
+	},
+	{
+		"livro" : "Torre Negra - O Pistoleiro",
+		"autor" : "Stephen King",
+		"imagem" : "https://i.ibb.co/GJjPN6w/serie-torre-negra.jpg",
+		"detalhes": {
+			"paginas" : "224",
+			"idioma" : "pt-br",
+			"editora" : "Suma das Letras",
+			"nota" : "8.7/10",
+			"serie" : "Torre Negra - Vol 1"
+		},
+		"status" : "H",
+		"lido" : "S",
+		"genero" : ["Aventura", "Drama", "Suspense", "Terror"],
+		"sinopse" : "Apontada como a mais importante obra do cultuado escritor norte-americano Stephen King, a série A Torre Negra foi descrita por seu autor como 'o mais longo romance popular de todos os tempos'. Inspirada no universo imaginário de J.R.R. Tolkien e no poema épico do século XIX 'Childe Roland à Torre Negra Chegou' e repleta de referências à cultura pop, às lendas arturianas e ao faroeste, A Torre Negra mistura ficção científica, fantasia e terror numa narrativa que forma um verdadeiro mosaico da cultura popular contemporânea. Elaborados ao longo de trinta e três anos entre 1970 e 2003, os sete volumes de A Torre Negra transportam o leitor para uma jornada épica e arrebatadora que cultiva uma legião de fãs ao redor do mundo."
+	},
+	{
+		"livro" : "Torre Negra - A Escolha dos Três",
+		"autor" : "Stephen King",
+		"imagem" : "https://i.ibb.co/GJjPN6w/serie-torre-negra.jpg",
+		"detalhes": {
+			"paginas" : "416",
+			"idioma" : "pt-br",
+			"editora" : "Suma das Letras",
+			"nota" : "N/A",
+			"serie" : "Torre Negra - Vol 2"
+		},
+		"status" : "H",
+		"lido" : "N",
+		"genero" : ["Aventura", "Drama", "Suspense", "Terror"],
+		"sinopse" : "Apontada como a mais importante obra do cultuado escritor norte-americano Stephen King, a série A Torre Negra foi descrita por seu autor como 'o mais longo romance popular de todos os tempos'. Inspirada no universo imaginário de J.R.R. Tolkien e no poema épico do século XIX 'Childe Roland à Torre Negra Chegou' e repleta de referências à cultura pop, às lendas arturianas e ao faroeste, A Torre Negra mistura ficção científica, fantasia e terror numa narrativa que forma um verdadeiro mosaico da cultura popular contemporânea. Elaborados ao longo de trinta e três anos entre 1970 e 2003, os sete volumes de A Torre Negra transportam o leitor para uma jornada épica e arrebatadora que cultiva uma legião de fãs ao redor do mundo."
+	},
+	{
+		"livro" : "Torre Negra - Terras Devastadas",
+		"autor" : "Stephen King",
+		"imagem" : "https://i.ibb.co/GJjPN6w/serie-torre-negra.jpg",
+		"detalhes": {
+			"paginas" : "528",
+			"idioma" : "pt-br",
+			"editora" : "Suma das Letras",
+			"nota" : "N/A",
+			"serie" : "Torre Negra - Vol 3"
+		},
+		"status" : "A (Sebastião)",
+		"lido" : "N",
+		"genero" : ["Aventura", "Drama", "Suspense", "Terror"],
+		"sinopse" : "Apontada como a mais importante obra do cultuado escritor norte-americano Stephen King, a série A Torre Negra foi descrita por seu autor como 'o mais longo romance popular de todos os tempos'. Inspirada no universo imaginário de J.R.R. Tolkien e no poema épico do século XIX 'Childe Roland à Torre Negra Chegou' e repleta de referências à cultura pop, às lendas arturianas e ao faroeste, A Torre Negra mistura ficção científica, fantasia e terror numa narrativa que forma um verdadeiro mosaico da cultura popular contemporânea. Elaborados ao longo de trinta e três anos entre 1970 e 2003, os sete volumes de A Torre Negra transportam o leitor para uma jornada épica e arrebatadora que cultiva uma legião de fãs ao redor do mundo."
+	},
+	{
+		"livro" : "Torre Negra - Mago e Vidro",
+		"autor" : "Stephen King",
+		"imagem" : "https://i.ibb.co/GJjPN6w/serie-torre-negra.jpg",
+		"detalhes": {
+			"paginas" : "816",
+			"idioma" : "pt-br",
+			"editora" : "Suma das Letras",
+			"nota" : "N/A",
+			"serie" : "Torre Negra - Vol 4"
+		},
+		"status" : "H",
+		"lido" : "N",
+		"genero" : ["Aventura", "Drama", "Suspense", "Terror"],
+		"sinopse" : "Apontada como a mais importante obra do cultuado escritor norte-americano Stephen King, a série A Torre Negra foi descrita por seu autor como 'o mais longo romance popular de todos os tempos'. Inspirada no universo imaginário de J.R.R. Tolkien e no poema épico do século XIX 'Childe Roland à Torre Negra Chegou' e repleta de referências à cultura pop, às lendas arturianas e ao faroeste, A Torre Negra mistura ficção científica, fantasia e terror numa narrativa que forma um verdadeiro mosaico da cultura popular contemporânea. Elaborados ao longo de trinta e três anos entre 1970 e 2003, os sete volumes de A Torre Negra transportam o leitor para uma jornada épica e arrebatadora que cultiva uma legião de fãs ao redor do mundo."
+	},
+	{
+		"livro" : "Torre Negra - Lobos de Calla",
+		"autor" : "Stephen King",
+		"imagem" : "https://i.ibb.co/GJjPN6w/serie-torre-negra.jpg",
+		"detalhes": {
+			"paginas" : "744",
+			"idioma" : "pt-br",
+			"editora" : "Suma das Letras",
+			"nota" : "N/A",
+			"serie" : "Torre Negra - Vol 5"
+		},
+		"status" : "H",
+		"lido" : "N",
+		"genero" : ["Aventura", "Drama", "Suspense", "Terror"],
+		"sinopse" : "Apontada como a mais importante obra do cultuado escritor norte-americano Stephen King, a série A Torre Negra foi descrita por seu autor como 'o mais longo romance popular de todos os tempos'. Inspirada no universo imaginário de J.R.R. Tolkien e no poema épico do século XIX 'Childe Roland à Torre Negra Chegou' e repleta de referências à cultura pop, às lendas arturianas e ao faroeste, A Torre Negra mistura ficção científica, fantasia e terror numa narrativa que forma um verdadeiro mosaico da cultura popular contemporânea. Elaborados ao longo de trinta e três anos entre 1970 e 2003, os sete volumes de A Torre Negra transportam o leitor para uma jornada épica e arrebatadora que cultiva uma legião de fãs ao redor do mundo."
+	},
+	{
+		"livro" : "Torre Negra - Canção De Suzannah",
+		"autor" : "Stephen King",
+		"imagem" : "https://i.ibb.co/GJjPN6w/serie-torre-negra.jpg",
+		"detalhes": {
+			"paginas" : "408",
+			"idioma" : "pt-br",
+			"editora" : "Suma das Letras",
+			"nota" : "N/A",
+			"serie" : "Torre Negra - Vol 6"
+		},
+		"status" : "H",
+		"lido" : "N",
+		"genero" : ["Aventura", "Drama", "Suspense", "Terror"],
+		"sinopse" : "Apontada como a mais importante obra do cultuado escritor norte-americano Stephen King, a série A Torre Negra foi descrita por seu autor como 'o mais longo romance popular de todos os tempos'. Inspirada no universo imaginário de J.R.R. Tolkien e no poema épico do século XIX 'Childe Roland à Torre Negra Chegou' e repleta de referências à cultura pop, às lendas arturianas e ao faroeste, A Torre Negra mistura ficção científica, fantasia e terror numa narrativa que forma um verdadeiro mosaico da cultura popular contemporânea. Elaborados ao longo de trinta e três anos entre 1970 e 2003, os sete volumes de A Torre Negra transportam o leitor para uma jornada épica e arrebatadora que cultiva uma legião de fãs ao redor do mundo."
+	},
+	{
+		"livro" : "A Torre Negra",
+		"autor" : "Stephen King",
+		"imagem" : "https://i.ibb.co/GJjPN6w/serie-torre-negra.jpg",
+		"detalhes": {
+			"paginas" : "872",
+			"idioma" : "pt-br",
+			"editora" : "Suma das Letras",
+			"nota" : "N/A",
+			"serie" : "Torre Negra - Vol 7"
+		},
+		"status" : "H",
+		"lido" : "N",
+		"genero" : ["Aventura", "Drama", "Suspense", "Terror"],
+		"sinopse" : "Apontada como a mais importante obra do cultuado escritor norte-americano Stephen King, a série A Torre Negra foi descrita por seu autor como 'o mais longo romance popular de todos os tempos'. Inspirada no universo imaginário de J.R.R. Tolkien e no poema épico do século XIX 'Childe Roland à Torre Negra Chegou' e repleta de referências à cultura pop, às lendas arturianas e ao faroeste, A Torre Negra mistura ficção científica, fantasia e terror numa narrativa que forma um verdadeiro mosaico da cultura popular contemporânea. Elaborados ao longo de trinta e três anos entre 1970 e 2003, os sete volumes de A Torre Negra transportam o leitor para uma jornada épica e arrebatadora que cultiva uma legião de fãs ao redor do mundo."
+	},
+	{
+		"livro" : "Escuridão Total Sem Estrelas",
+		"autor" : "Stephen King",
+		"imagem" : "https://i.ibb.co/4j4JPzm/escuridao-total-sem-estrelas.jpg",
+		"detalhes": {
+			"paginas" : "392",
+			"idioma" : "pt-br",
+			"editora" : "",
+			"nota" : "N/A",
+			"serie" : "-"
+		},
+		"status" : "H",
+		"lido" : "N",
+		"genero" : ["Terror", "Suspense"],
+		"sinopse" : "Na ausência da luz, o mundo assume formas sombrias, distorcidas, tenebrosas. Em Escuridão total sem estrelas os crimes parecem inevitáveis; as punições, insuportáveis; as cumplicidades, misteriosas. Em 1922, o agricultor Wilfred e o filho, Hank, precisam decidir do que é mais fácil abrir mão: das terras da família ou da esposa e mãe. No conto Gigante do volante, após ser estuprada por um estranho e deixada à beira da morte, Tess, uma autora de livros de mistério, elabora uma vingança que vai deixá-la cara a cara com um lado desconhecido de si mesma. Já em Extensão justa, Dave Streeter tem um câncer terminal e faz um pacto com um estranho vendedor. Mas será que para salvar a própria vida vale a pena destruir a de outra pessoa? E, em Um bom casamento, uma caixa na garagem pode dizer mais a Darcy Anderson sobre seu marido do que os vinte anos que eles passaram juntos. Os personagens dos quatro contos de Stephen King passam por momentos de escuridão total, quando não existe nada – bom senso, piedade, justiça ou estrelas – para guiá-los. Suas histórias representam o modo como lidamos com o mundo e como o mundo lida conosco. São narrativas fortes e, cada uma a seu modo, profundamente chocantes."
+	},
+	{
+		"livro" : "Desespero",
+		"autor" : "Stephen King",
+		"imagem" : "https://i.ibb.co/ypxrrrj/desespero.jpg",
+		"detalhes": {
+			"paginas" : "567",
+			"idioma" : "pt-br",
+			"editora" : "Suma das Letras",
+			"nota" : "7/10",
+			"serie" : "-"
+		},
+		"status" : "H",
+		"lido" : "S",
+		"genero" : ["Terror"],
+		"sinopse" : "A rodovia 50 é conhecida como a autoestrada mais solitária dos Estados Unidos. Atravessando o deserto sob um calor brutal, seguem pela rodovia pessoas que talvez jamais cheguem a seu destino. Como o professor Jackson e sua mulher, que estão voltando para Nova York; ou a família Carver, de Wentworth, Ohio, que segue para férias no Lago Tahoe. E como John Marinville, uma fera literária montada em sua legítima Harley-Davidson. Um gato morto espetado na placa que indica a cidade de Desespero revela que há algo de estranho acontecendo na rodovia. Algo macabro, que nenhum deles seria capaz de supor. A figura de Collie Entragian, um policial gigante, é mais um indício de que o caminho que leva a Desespero não é o que se poderia desejar. Para Entragian, ele é a única lei da região, o juiz implacável. E é preciso uma boa dose de coragem para duvidar de suas palavras. Uma influência demoníaca domina a cidade como um vírus e é preciso que surja o quanto antes uma força capaz de detê-la."
+	},
+	{
+		"livro" : "À Espera de um Milagre",
+		"autor" : "Stephen King",
+		"imagem" : "https://i.ibb.co/ssDMynX/espera-de-um-milagre.jpg",
+		"detalhes": {
+			"paginas" : "230",
+			"idioma" : "pt-br",
+			"editora" : "Objetiva",
+			"nota" : "N/A",
+			"serie" : "-"
+		},
+		"status" : "H",
+		"lido" : "N",
+		"genero" : ["Drama"],
+		"sinopse" : "Bem-vindos à Penitenciária Cold Mountain, lar de um grupo de assassinos que esperam sua vez de andar pelo corredor da morte rumo à cadeira elétrica. Ambientado nos anos 1930, durante a Depressão da economia americana, em um cenário de desespero, À espera de um milagre traz a história do condenado John Coffrey e sua relação com o guarda penitenciário Paul Edgecombe. Edgecombe já viu muitas coisas bizarras durante a carreira, mas John Coffrey – um gigante com mente de criança – é uma das figuras mais estranhas que já conheceu. Acusado de estuprar e matar brutalmente duas garotas, seria o homem a encarnação do mal? Ou algo completamente diferente? O guarda está prestes a descobrir verdades terríveis e assombrosas que desafiarão todas as suas crenças. "
+	},
+	{
+		"livro" : "O Iluminado",
+		"autor" : "Stephen King",
+		"imagem" : "https://i.ibb.co/grrGbh4/iluminado.jpg",
+		"detalhes": {
+			"paginas" : "313",
+			"idioma" : "pt-br",
+			"editora" : "Objetiva",
+			"nota" : "10/10",
+			"serie" : "-"
+		},
+		"status" : "H",
+		"lido" : "S",
+		"genero" : ["Terror", "Suspense"],
+		"sinopse" : "O lugar perfeito para recomeçar”, é o que pensa Jack Torrance ao ser contratado como zelador para o inverno. Hora de deixar para trás o alcoolismo, os acessos de fúria, os repetidos fracassos. Isolado pela neve com a esposa e o filho, tudo o que Jack deseja é um pouco de paz para se dedicar à escrita. Mas, conforme o inverno se aprofunda, o local paradisíaco começa a parecer cada vez mais remoto... e mais sinistro. Forças malignas habitam o Overlook, e tentam se apoderar de Danny Torrance, um garotinho com grandes poderes sobrenaturais. Possuir o menino, no entanto, se mostra mais difícil do que esperado. Então os espíritos resolvem se aproveitar das fraquezas do pai..."
+	},
+	{
+		"livro" : "Tudo é Eventual",
+		"autor" : "Stephen King",
+		"imagem" : "https://i.ibb.co/vY1ZJfd/tudo-e-eventual.jpg",
+		"detalhes": {
+			"paginas" : "305",
+			"idioma" : "pt-br",
+			"editora" : "Objetiva",
+			"nota" : "N/A",
+			"serie" : "-"
+		},
+		"status" : "H",
+		"lido" : "P",
+		"genero" : ["Drama", "Terror", "Suspense"],
+		"sinopse" : "Andando na bala” conta a história de Alan Parker, que está pedindo carona na estrada, tentando visitar a mãe moribunda, mas entra no carro errado e acaba indo mais longe do que imaginou. Em “Almoço no Café Gotham”, a briga de um casal no restaurante tem uma reviravolta sangrenta quando maitre se envolve. Em “1.408”, um autor famoso por escrever sobre cemitérios e casas assombradas visita um quarto temido no Hotel Dolphin... Seja escrevendo sobre encontros com os mortos, ou sobre medos mais cotidianos, Stephen King cria em Tudo é eventual uma coletânea de suas melhores obras."
+	},
+	{
+		"livro" : "A Maldição do Cigano",
+		"autor" : "Stephen King",
+		"imagem" : "https://i.ibb.co/vH8SWGk/la-maldico-do-cigano.jpg",
+		"detalhes": {
+			"paginas" : "169",
+			"idioma" : "pt-br",
+			"editora" : "Objetiva",
+			"nota" : "7/10",
+			"serie" : "-"
+		},
+		"status" : "H",
+		"lido" : "S",
+		"genero" : ["Terror"],
+		"sinopse" : "Com uma rotina tranquila, bem casado, o advogado Bill Halleck não tinha muitos problemas na vida. A não ser o peso. Mas por nada no mundo dispensaria os dois ovos com bacon do café da manhã ou os pacotes de Doritos diariamente devorados. Tudo iria mudar drasticamente naquele maldito dia. A velha cigana se pôs em seu caminho e Bill não conseguiu parar o carro. Ao mesmo tempo em que as rodas esmagavam a velha, a vida de Halleck começava a ser destruída. Considerado inocente pela justiça humana, não pôde fugir à maldição soprada por Taduz Lemke, o patriarca dos ciganos, na saída do tribunal. 'Emagrecido', praguejou o velho. A partir desta dia, os 111 quilos de Bill passam a ser sugados vertiginosamente. Se não conseguir deter a maldição cigana, em pouco tempo Bill não será mais do que um feixe de ossos."
+	},
+	{
+		"livro" : "O Cemitério",
+		"autor" : "Stephen King",
+		"imagem" : "https://i.ibb.co/gZcqbwv/cemiterio.jpg",
+		"detalhes": {
+			"paginas" : "287",
+			"idioma" : "pt-br",
+			"editora" : "Objetiva",
+			"nota" : "10/10",
+			"serie" : "-"
+		},
+		"status" : "H",
+		"lido" : "S",
+		"genero" : ["Terror"],
+		"sinopse" : "Louis Creed, um jovem médico de Chicago, acredita que encontrou seu lugar em uma pequena cidade do Maine. A boa casa, o trabalho na universidade e a felicidade da esposa e dos filhos lhe trazem a certeza de que fez a melhor escolha. Num dos primeiros passeios pela região, conhecem um cemitério no bosque próximo à sua casa. Ali, gerações de crianças enterraram seus animais de estimação. Mas, para além dos pequenos túmulos, há um outro cemitério. Uma terra maligna que atrai pessoas com promessas sedutoras. Um universo dominado por forças estranhas capazes de tornar real o que sempre pareceu impossível. A princípio, Louis Creed se diverte com as histórias fantasmagóricas do vizinho Crandall. No entanto, quando o gato de sua filha Eillen morre atropelado e, subitamente, retorna à vida, ele percebe que há coisas que nem mesmo a sua ciência pode explicar. Que mistérios esconde o cemitério dos bichos? Terá o homem o direito de interferir no mundo dos mortos? Em busca das respostas, Louis Creed é levado por uma trama sobrenatural em que o limite entre a vida e a morte é inexistente. E, quando descobre a verdade, percebe que ela é muito pior que seus mais terríveis pesadelos. Pior que a própria morte - e infinitamente mais poderosa."
+	},
+	{
+		"livro" : "Stephen King - A Biografia",
+		"autor" : "Lisa Rogak",
+		"imagem" : "https://i.ibb.co/K6y1S5T/stephen-king-bio.jpg",
+		"detalhes": {
+			"paginas" : "320",
+			"idioma" : "pt-br",
+			"editora" : "Darkside",
+			"nota" : "N/A",
+			"serie" : "-"
+		},
+		"status" : "H",
+		"lido" : "N",
+		"genero" : ["Biografia"],
+		"sinopse" : "Nesta obra indicada ao Prêmio Edgar Allan Poe de Melhor Biografia, a jornalista Lisa Rogak nos conduz, com rigor e pesquisa, pelo universo peculiar de Stephen King. Reconstitui sua infância difícil — marcada pelo ausência do pai, que estranhamente se conecta com o Brasil —, revela suas angústias e seus medos mais profundos como autor, resgata os primeiros contatos do jovem King com a escrita e sua luta contra a dependência química."
+	},
+	{
+		"livro" : "As Quatro Estações",
+		"autor" : "Stephen King",
+		"imagem" : "https://i.ibb.co/rbn0cjF/quatro-estacoes.jpg",
+		"detalhes": {
+			"paginas" : "560",
+			"idioma" : "pt-br",
+			"editora" : "Francisco Alves",
+			"nota" : "9/10",
+			"serie" : "Mestres do Horror e Fantasia"
+		},
+		"status" : "H",
+		"lido" : "S",
+		"genero" : ["Terror", "Drama", "Suspense"],
+		"sinopse" : "Quatro Estações”, uma coletânea de quatro contos, é um dos livros mais renomados de Stephen King. Em um profundo mergulho na natureza humana, revela medos, esperanças e impulsos. E explora todas as facetas do ser humano, desde seu mais puro desejo de ser livre à sua mais apavorante crueldade. O mestre do terror se distancia do sobrenatural e se lança no dia a dia de personagens comuns, construindo histórias envolventes que prendem o leitor até a última página."
+	},
+	{
+		"livro" : "Insônia",
+		"autor" : "Stephen King",
+		"imagem" : "https://i.ibb.co/0syT9S0/insonia.jpg",
+		"detalhes": {
+			"paginas" : "404",
+			"idioma" : "pt-br",
+			"editora" : "Planeta de Agostini",
+			"nota" : "N/A",
+			"serie" : "Coleção Stephen King"
+		},
+		"status" : "H",
+		"lido" : "N",
+		"genero" : ["Terror"],
+		"sinopse" : "Ralph Roberts é um viúvo aposentado que, subitamente, começa a sofrer de insônia. Primeiro, ele começa a acordar mais cedo. E mais cedo. Conforme o quadro piora, ele começa a ver coisas invisíveis aos olhos dos outros - auras coloridas e seres que, por sua aparência, chama de “doutorzinhos carecas”. Através dessas visões, percebe outros planos de realidade e sua influência sobre o mundo “real”. Logo, Roberts descobre que há um motivo aterrorizante para sua insônia e seus poderes: ele foi um dos escolhidos para lutar contra a destruição do mundo. Em uma trama que se entrelaça com a da série A Torre Negra, ele deve enfrentar o Rei Rubro para impedir que uma misteriosa profecia seja extinta."
+	}
+]
