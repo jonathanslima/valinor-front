@@ -22,8 +22,8 @@
 	.card{
 		.icon-status{
 			position: absolute;
-	    top: 20px;
-	    left: 30px;
+	    top: 0;
+	    left: 0;
 
 	    .material-icons{
 				font-size: 50px;

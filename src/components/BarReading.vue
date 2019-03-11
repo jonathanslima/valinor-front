@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class="bl-read">
 		<span v-if="reading" class="bar-reading reading"></span>
 		<span v-else-if="read" class="bar-reading read"></span>
 		<span v-else class="bar-reading noread"></span>
@@ -35,15 +35,19 @@
 	.noread{ background-color: $noread }
 	.reading{ background: linear-gradient(to right, $read 50%, $noread 50%) }
 
+	.bl-read{
+		margin-top: 10px;
+	}
+
 	.bar-reading{
-		width: 80%;
+		width: 88%;
 		height: 5px;
-		margin: 10px 5px 10px 0;
+		margin: 10px 0;
 		display: inline-block;
 	}
 
 	.tooltipped{
-		width: 15%;
+		width: 10%;
 		text-align: right;
 	}
 </style>

@@ -1,6 +1,6 @@
 <template>
 	<div class="">
-		<button class="btn btn-details waves-effect waves-light">{{ details }}</button>
+		<button @click="showDetails()" class="btn btn-details waves-effect waves-light">{{ details }}</button>
 	</div>
 </template>
 
@@ -9,6 +9,11 @@
 		data(){
 			return{
 				'details': 'Detalhes'
+			}
+		},
+		methods: {
+			showDetails: () => {
+				console.log('$emit')
 			}
 		}
 	}
