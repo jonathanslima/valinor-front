@@ -1,6 +1,8 @@
 <template>
   <div id="app">
     <div class="container">
+      <filterBook></filterBook>
+
       <div class="row">
         <card v-for='book in books'>
           <image-book :bookURL="book.imagem" :bookAlt="book.livro" :bookStatus="book.status"></image-book>
@@ -21,6 +23,7 @@
   import BtnDetails from './components/BtnDetails.vue';
   import BoxDetails from './components/BoxDetails.vue';
   import Image from './components/Image.vue';
+  import FilterBook from './components/FilterBook.vue';
   
   export default {
     components: {
@@ -29,7 +32,8 @@
       'title-author': TitleAuthor,
       'btn-details': BtnDetails,
       'box-details': BoxDetails,
-      'image-book': Image
+      'image-book': Image,
+      'filterBook': FilterBook
     },
     data () {
       return {
