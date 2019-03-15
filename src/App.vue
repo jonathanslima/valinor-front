@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <div class="container">
+      <headerValinor :pName="projectName"></headerValinor>
       <filterBook></filterBook>
 
       <div class="row">
@@ -17,6 +18,7 @@
 </template>
 
 <script>
+  import Header from './components/Header.vue';
   import Card from './components/Card.vue';
   import BarReading from './components/BarReading.vue';
   import TitleAuthor from './components/TitleAuthor.vue';
@@ -27,6 +29,7 @@
   
   export default {
     components: {
+      'headerValinor': Header,
       'card': Card,
       'bar-reading': BarReading,
       'title-author': TitleAuthor,
@@ -37,7 +40,8 @@
     },
     data () {
       return {
-        books: []
+        books: [],
+        projectName: 'Valinor'
       }
     },
     created(){ /* lifecycle hooks, the code below will be executed when component is created */

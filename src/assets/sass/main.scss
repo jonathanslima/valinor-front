@@ -76,7 +76,7 @@ a{
 	@extend .trans;
 	color: $link-color;
 
-	&:hover, &:focus, &active{
+	&:hover, &:focus, &:active{
 		color: $link-color-hv;
 		text-decoration: none;
 	}

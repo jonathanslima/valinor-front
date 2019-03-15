@@ -25,19 +25,21 @@
 
 <style scoped lang="sass">
 	.box-details{
-		background: #ccc;
-    position: absolute;
+		background: rgba(80, 80, 80, 0.9);
+		color: #fff;
+    position: fixed;
     width: 100%;
     top: 0;
     left: 0;
     padding: 15px;
     text-align: left;
 		z-index: 1;
-		display: none;
+		height: 100vh;
+		overflow: scroll;
+		// display: none;
 	}
 
 	.box-details-show{
-    height: 100%;
 		display: table;
 	}
 	/* MEDIA QUERY MOBILE FIRST ------------------------------------------------------------*/
@@ -50,12 +52,22 @@
 
 	/* Medium devices (desktops, 992px and up) */
 	@media (min-width: 992px) {
-		.box-details{
-		  width: 80%;
-		  margin-left: 10%;
-		}
+
 	}
 
 	/* Large devices (large desktops, 1200px and up) */
-	@media (min-width: 1200px) {}
+	@media (min-width: 1200px) {
+		.box-details{
+			background: rgba(80, 80, 80, 0.9);
+			color: #fff;
+	    position: fixed;
+	    width: 100%;
+	    top: 25%;
+	    left: 0;
+	    padding: 15px;
+	    text-align: left;
+			z-index: 1;
+			height: 50%;
+		}
+	}
 </style>
