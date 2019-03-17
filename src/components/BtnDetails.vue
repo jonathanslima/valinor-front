@@ -1,19 +1,23 @@
 <template>
 	<div class="">
-		<button @click="showDetails()" class="btn btn-details waves-effect waves-light">{{ details }}</button>
+		<button @click="showDetails" class="btn btn-details waves-effect waves-light">{{ details }}</button>
 	</div>
 </template>
 
 <script>
+	import { serverBus } from '../main.js';
 	export default{
+
+		props: ['bookDataToModal'],
 		data(){
-			return{
-				'details': 'Detalhes'
+			return {
+				'details': 'Details'
 			}
 		},
 		methods: {
-			showDetails: () => {
-				console.log('$emit')
+			showDetails: function(){
+				serverBus.$emit('showDetails', this.bookDataToModal);
+				document.querySelector('.box-details').style.display = 'block';
 			}
 		}
 	}

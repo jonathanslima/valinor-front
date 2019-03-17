@@ -20,8 +20,8 @@
 		},
 		methods: {
 			enableTooltip: () => {
-		    var elems = document.querySelectorAll('.tooltipped');
-		    var instances = M.Tooltip.init(elems);
+			    var elems = document.querySelectorAll('.tooltipped');
+			    var instances = M.Tooltip.init(elems);
 			}
 		}
 	}

@@ -9,7 +9,7 @@
           <image-book :bookURL="book.imagem" :bookAlt="book.livro" :bookStatus="book.status"></image-book>
           <bar-reading :bookRead="book.lido"></bar-reading>
           <title-author :bookName="book.livro" :authorName="book.autor"></title-author>
-          <btn-details></btn-details>
+          <btn-details :bookDataToModal="book"></btn-details>
         </card>
       </div>
       </div>

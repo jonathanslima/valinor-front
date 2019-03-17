@@ -1,24 +1,48 @@
 <template>
 	<div class="box-details">
-		<span class="close-box"><i class="material-icons">close</i></span>
+		<span class="close-box"><i @click="closeBox" class="material-icons">close</i></span>
 
 		<ul class="list-details">
-			<li class="detail-item"><b>Nota: </b><span class="grade">N/A</span></li>
-			<li class="detail-item"><b>Editora: </b><span class="publisher">Objetiva</span></li>
-			<li class="detail-item"><b>Gênero: </b><span class="category">Drama, Terror</span></li>
-			<li class="detail-item"><b>Série: </b> <span class="serie"> - </span></li>
-			<li class="detail-item"><b>Páginas: </b> <span class="pages">470</span></li>
-			<li class="detail-item"><b>Sinopse: </b><span class="sinopse">Em Pesadelos e paisagens noturnas - livro em dois volumes -, Stephen King reúne suas melhores novelas. Histórias “muito estranhas”, nas palavras do autor, escritas em diferentes épocas, provando sua maestria também em narrativas curtas. Com vários filmes inesquecíveis já tendo sido adaptados de suas novelas – como Um sonho de liberdade, 1408, e À espera de um milagre –, os leitores ficarão encantados de redescobrir esta coleção de clássicos. Com vinte histórias curtas de terror, um script de televisão, um ensaio e um poema, Pesadelos e paisagens noturnas contém tramas únicas e arrepiantes, que incluem desde um rock-star zumbi a brinquedos malignos e assassinos.  Esta coleção de histórias, muitas inéditas, oferece uma viagem eletrizante a um mundo de pesadelos criado pelo mestre do terror e do imaginário grotesco.</span></li>
+			<li class="detail-item"><b></b><span class="name">{{ name }}</span></li>
+			<li class="detail-item"><b>Nota: </b><span class="grade">{{ grade }}</span></li>
+			<li class="detail-item"><b>Editora: </b><span class="publisher">{{ publisher }}</span></li>
+			<li class="detail-item"><b>Gênero: </b><span class="category">{{ category }}</span></li>
+			<li class="detail-item"><b>Série: </b> <span class="serie"> {{ serie }} </span></li>
+			<li class="detail-item"><b>Páginas: </b> <span class="pages">{{ pages }}</span></li>
+			<li class="detail-item"><b>Sinopse: </b><span class="sinopse">{{ sinopse }}</span></li>
 		</ul>
 	</div>
 </template>
 
 <script>
+	import { serverBus } from '../main.js';
 	export default{
-		props: [],
 		data(){
 			return{
+				name: null,
+				grade: null,
+				publisher: null,
+				category: null,
+				serie: null,
+				pages: null,
+				sinopse: null
 			}
+		},
+		methods: {
+			closeBox: () => {
+				document.querySelector('.box-details').style.display = 'none';
+			}
+		},
+		created(){
+			serverBus.$on('showDetails', (book) => {
+			   this.name = book.livro.toUpperCase();
+			   this.grade = book.detalhes.nota;
+			   this.publisher = book.detalhes.editora;
+			   this.category = book.genero;
+			   this.serie = book.detalhes.serie;
+			   this.pages = book.detalhes.paginas;
+			   this.sinopse = book.sinopse;
+			  });
 		}
 	}
 </script>
@@ -36,11 +60,19 @@
 		z-index: 1;
 		height: 100vh;
 		overflow: scroll;
-		// display: none;
+		display: none;
 	}
 
 	.box-details-show{
 		display: table;
+	}
+
+	.close-box{
+		cursor: pointer;
+	}
+
+	.name{
+		font-size: 24px;
 	}
 	/* MEDIA QUERY MOBILE FIRST ------------------------------------------------------------*/
 	//
@@ -61,13 +93,13 @@
 			background: rgba(80, 80, 80, 0.9);
 			color: #fff;
 	    position: fixed;
-	    width: 100%;
+	    width: 80%;
 	    top: 25%;
-	    left: 0;
-	    padding: 15px;
+	    left: 10%;
+	    padding: 15px 50px;
 	    text-align: left;
 			z-index: 1;
-			height: 50%;
+			height: 60%;
 		}
 	}
 </style>

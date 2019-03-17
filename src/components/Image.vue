@@ -49,9 +49,15 @@
 	@media (min-width: 992px) {
 		.card{
 			.icon-status{
-		    .material-icons{
-		    	font-size: 40px;
-		  	}
+			    .material-icons{
+			    	font-size: 40px;
+			  	}
+			}
+
+			figure{
+			    align-items: center;
+			    display: flex;
+			    justify-content: center;
 			}
 		}
 	}
