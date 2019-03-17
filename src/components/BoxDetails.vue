@@ -1,7 +1,7 @@
 <template>
 	<div class="box-details">
 		<span class="close-box"><i @click="closeBox" class="material-icons">close</i></span>
-
+		
 		<ul class="list-details">
 			<li class="detail-item"><b></b><span class="name">{{ name }}</span></li>
 			<li class="detail-item"><b>Nota: </b><span class="grade">{{ grade }}</span></li>
@@ -34,6 +34,8 @@
 			}
 		},
 		created(){
+  			document.addEventListener('keyup', this.closeBox);
+
 			serverBus.$on('showDetails', (book) => {
 			   this.name = book.livro.toUpperCase();
 			   this.grade = book.detalhes.nota;
@@ -42,7 +44,7 @@
 			   this.serie = book.detalhes.serie;
 			   this.pages = book.detalhes.paginas;
 			   this.sinopse = book.sinopse;
-			  });
+		  	});
 		}
 	}
 </script>

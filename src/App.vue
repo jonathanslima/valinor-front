@@ -2,17 +2,17 @@
   <div id="app">
     <div class="container">
       <headerValinor :pName="projectName"></headerValinor>
-      <filterBook></filterBook>
+      <filterBook @item-filtered="filterByBook = $event"></filterBook>
 
       <div class="row">
-        <card v-for='book in books'>
+        <card v-for='book in filteredList'>
           <image-book :bookURL="book.imagem" :bookAlt="book.livro" :bookStatus="book.status"></image-book>
           <bar-reading :bookRead="book.lido"></bar-reading>
           <title-author :bookName="book.livro" :authorName="book.autor"></title-author>
           <btn-details :bookDataToModal="book"></btn-details>
         </card>
       </div>
-      </div>
+    </div>
     <box-details></box-details>
   </div>
 </template>
@@ -41,7 +41,19 @@
     data () {
       return {
         books: [],
-        projectName: 'Valinor'
+        projectName: 'Valinor',
+        filterByBook: ''
+      }
+    },
+    computed: {
+      filteredList: function (item) {
+        if(this.filterByBook) {
+          let exp = new RegExp(this.filterByBook.trim(), 'i');
+          return this.books.filter(book => exp.test(book.livro) || exp.test(book.autor) || exp.test(book.genero));
+
+        } else {
+          return this.books;
+        }
       }
     },
     created(){ /* lifecycle hooks, the code below will be executed when component is created */

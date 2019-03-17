@@ -3,19 +3,28 @@
 		<div class="row">
 			<div class="col s12">
 				<div class="input-field col s12">
-		          <input id="last_name" type="text" class="validate">
-		          <label for="last_name">Filter</label>
-		        </div>
+          <input id="filter" @input="$emit('item-filtered', $event.target.value)" type="search" class="validate">
+          <label for="filter">Filter</label>
+        </div>
 			</div>
 		</div>
 	</div>
 </template>
 
 <script>
-	
+	export default{
+		data(){
+			return{
+			}
+		}
+	}
 </script>
 
 <style scoped lang="scss">
-	
+	#filter{ 
+		&:focus{
+			box-shadow: #26a69a;
+		}
+	}
 </style>
 

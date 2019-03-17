@@ -4,7 +4,9 @@
 		<span v-else-if="read" class="bar-reading read"></span>
 		<span v-else class="bar-reading noread"></span>
 
-		<i class="material-icons tooltipped" @mouseover="enableTooltip" data-position="right" data-tooltip="reading">info</i>
+		<i v-if="reading" class="material-icons tooltipped" @mouseover="enableTooltip" data-position="right" data-tooltip="Reading">info</i>
+		<i v-else-if="read" class="material-icons tooltipped" @mouseover="enableTooltip" data-position="right" data-tooltip="Read">info</i>
+		<i v-else class="material-icons tooltipped" @mouseover="enableTooltip" data-position="right" data-tooltip="Not read">info</i>
 	</div>
 </template>
 

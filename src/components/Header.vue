@@ -47,6 +47,7 @@
 	}
 
 	.menu-nav{
+		display: none;
 		background: none;
 		color: #333;
 		box-shadow: none;
@@ -58,6 +59,13 @@
 
 		.menu-item{
 			margin: 0 15px;
+		}
+	}
+
+	/* Small devices (tablets, 600px and up) */
+	@media (min-width: 600px) {
+		.menu-nav{
+			display: block;
 		}
 	}
 </style>
