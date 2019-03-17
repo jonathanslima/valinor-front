@@ -1,7 +1,7 @@
 <template>
 	<figure>
-		<span v-if="status" class="icon-status icon-home"><i class="material-icons">home</i></span>
-		<span v-else class="icon-status icon-away"><i class="material-icons">block</i></span>
+		<span v-if="status" class="icon-status icon-home"><i class="material-icons">sentiment_very_satisfied</i></span>
+		<span v-else class="icon-status icon-away"><i class="material-icons">sentiment_neutral</i></span>
 
 		<img :src="bookURL" :alt="bookAlt" class="book-img" :status="bookStatus">
 	</figure>

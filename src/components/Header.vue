@@ -1,11 +1,15 @@
 <template>
 	<header class="header">
-		<img class="logo" :src="imagePath">
+		<router-link to="Home">
+			<img class="logo" :src="imagePath">
+		</router-link>
 		<h1 class="title">{{ pName }}</h1>
 
 		<nav class="menu-nav">
 			<ul>
-				<li v-for="li in menuItem" class="menu-item">{{ li }}</li>
+				<li v-for="li in menuItem" class="menu-item">
+					<router-link :to="li">{{ li }}</router-link>
+				</li>
 			</ul>
 		</nav>
 	</header>
@@ -17,7 +21,7 @@
 		data(){
 			return{
 				imagePath: './src/assets/img/blason-gondor.png',
-				menuItem: ['Lista', 'Cadastro']
+				menuItem: ['Home', 'List', 'Register']
 			}
 		},
 		methods() {
@@ -59,6 +63,10 @@
 
 		.menu-item{
 			margin: 0 15px;
+
+			a{
+				color: #333;
+			}
 		}
 	}
 
