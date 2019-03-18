@@ -21,7 +21,7 @@
 		data(){
 			return{
 				imagePath: './src/assets/img/blason-gondor.png',
-				menuItem: ['List', 'Register']
+				menuItem: ['list', 'register']
 			}
 		},
 		methods() {
@@ -59,6 +59,7 @@
 
 		ul{
 			display: inline-block;
+			text-transform: uppercase;
 		}
 
 		.menu-item{

@@ -4,14 +4,14 @@
 		  <form class="col s6 offset-l3" v-on:submit.prevent>
 		    <div class="row">
 		      <div class="input-field col s12">
-		        <input id="login" type="text" class="validate">
+		        <input id="login" type="text" class="validate" :value="login" autocomplete="off">
 		        <label for="login">Login</label>
 		      </div>
 		    </div>
 
 		    <div class="row">
 		      <div class="input-field col s12">
-		        <input id="password" type="password" class="validate">
+		        <input id="password" type="password" class="validate" :value="pass" autocomplete="off">
 		        <label for="password">Password</label>
 		      </div>
 		    </div>
@@ -31,8 +31,12 @@
 <script>
 	export default{
 		data(){
-			return{
+			let UAName = JSON.parse(sessionStorage.getItem('userAcess'))[0].name;
+			let UAPass = JSON.parse(sessionStorage.getItem('userAcess'))[0].pass;
 
+			return{
+				'login': UAName ? UAName : '',
+				'pass': UAPass ? UAPass : ''
 			}
 		},
 		methods: {
@@ -40,10 +44,12 @@
 				let name = document.querySelector('#login').value;
 				let pass = document.querySelector('#password').value;
 
-				console.log('name', name)
-				console.log('pass', pass)
-				sessionStorage.setItem('userAcess', "{'name': " + name + ",'pass': " + pass + "}");
-				router.go('/List');
+				sessionStorage.setItem('userAcess', '[{"name": "' + name + '","pass": "' + pass + '"}]');
+
+				this.$router.push('/list')
+
+				// JSON.parse(sessionStorage.getItem('userAcess'))[0].name
+				// JSON.parse(sessionStorage.getItem('userAcess'))[0].pass
 			}
 		}
 	}

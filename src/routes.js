@@ -5,5 +5,5 @@ import Register from './components/Register.vue';
 export const routes = [
 	{ path : '', component: Home },
 	{ path : '/list', component: List },
-	{ path : '/register', component: Register },
+	{ path : '/register', component: Register }
 ]

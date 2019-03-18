@@ -23,7 +23,7 @@
 <style scoped lang="scss">
 	#filter{ 
 		&:focus{
-			box-shadow: #26a69a;
+			box-shadow: 0 1px 0 0 #26a69a;
 		}
 	}
 </style>

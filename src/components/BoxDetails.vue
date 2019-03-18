@@ -4,12 +4,12 @@
 		
 		<ul class="list-details">
 			<li class="detail-item"><b></b><span class="name">{{ name }}</span></li>
-			<li class="detail-item"><b>Nota: </b><span class="grade">{{ grade }}</span></li>
-			<li class="detail-item"><b>Editora: </b><span class="publisher">{{ publisher }}</span></li>
-			<li class="detail-item"><b>Gênero: </b><span class="category">{{ category }}</span></li>
-			<li class="detail-item"><b>Série: </b> <span class="serie"> {{ serie }} </span></li>
-			<li class="detail-item"><b>Páginas: </b> <span class="pages">{{ pages }}</span></li>
-			<li class="detail-item"><b>Sinopse: </b><span class="sinopse">{{ sinopse }}</span></li>
+			<li class="detail-item"><b>Grade: </b><span class="grade">{{ grade }}</span></li>
+			<li class="detail-item"><b>Publisher: </b><span class="publisher">{{ publisher }}</span></li>
+			<li class="detail-item"><b>Category: </b><span class="category">{{ category }}</span></li>
+			<li class="detail-item"><b>Series: </b> <span class="serie"> {{ serie }} </span></li>
+			<li class="detail-item"><b>Pages: </b> <span class="pages">{{ pages }}</span></li>
+			<li class="detail-item"><b>Synopsis: </b><span class="sinopse">{{ sinopse }}</span></li>
 		</ul>
 	</div>
 </template>
