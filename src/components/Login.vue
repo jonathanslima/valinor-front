@@ -18,11 +18,9 @@
 
 		    <div class="row">
 		      <div class="col s12 center">
-		        <span @click="storeDataLogin">
-  		        <router-link to="List" class="btn waves-effect waves-light btn-large">Enter
-  	            <i class="material-icons right">send</i>
-  	          </router-link>
-		        </span>
+		        <button @click="storeDataLogin" class="btn waves-effect waves-light btn-large">Enter
+	            <i class="material-icons right">send</i>
+	          </button>
 		      </div>
 		    </div>
 		  </form>
@@ -42,10 +40,10 @@
 				let name = document.querySelector('#login').value;
 				let pass = document.querySelector('#password').value;
 
-				sessionStorage.setItem('userAcess', {
-					'name': name,
-					'pass': pass
-				})
+				console.log('name', name)
+				console.log('pass', pass)
+				sessionStorage.setItem('userAcess', "{'name': " + name + ",'pass': " + pass + "}");
+				router.go('/List');
 			}
 		}
 	}
