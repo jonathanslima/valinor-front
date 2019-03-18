@@ -1,6 +1,6 @@
 <template>
 	<header class="header">
-		<router-link to="Home">
+		<router-link to="/">
 			<img class="logo" :src="imagePath">
 		</router-link>
 		<h1 class="title">{{ pName }}</h1>
@@ -21,7 +21,7 @@
 		data(){
 			return{
 				imagePath: './src/assets/img/blason-gondor.png',
-				menuItem: ['Home', 'List', 'Register']
+				menuItem: ['List', 'Register']
 			}
 		},
 		methods() {
