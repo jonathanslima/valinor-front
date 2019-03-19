@@ -39,7 +39,8 @@
     data () {
       return {
         books: [],
-        filterByBook: ''
+        filterByBook: '',
+        infos: []
       }
     },
     computed: {
@@ -56,7 +57,21 @@
     created(){ /* lifecycle hooks, the code below will be executed when component is created */
       fetch('http://localhost:8080/api/importBooks.json')
         .then(res => res.json())
-        .then(book => this.books = book)
+        .then(book => this.books = book) 
+        .then(book => {
+          let allBooks = book;
+          let viewed = 12;
+          let amount = allBooks.length;
+          let pages = amount <= viewed ? 1 : Math.ceil(amount / viewed);
+          let pagination = {
+            qtdBooks: amount,
+            qtdPages: pages,
+            itemsPerPage: viewed
+          };
+          this.infos.push(pagination);
+
+        });   
+
     }
   }
 </script>
