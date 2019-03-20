@@ -31,12 +31,13 @@
 <script>
 	export default{
 		data(){
-			let UAName = JSON.parse(sessionStorage.getItem('userAcess'))[0].name;
-			let UAPass = JSON.parse(sessionStorage.getItem('userAcess'))[0].pass;
+			let UA = JSON.parse(sessionStorage.getItem('userAcess')) || '';
+			let UAName = UA ? UA[0].name : '';
+			let UAPass = UA ? UA[0].pass : '';
 
 			return{
-				'login': UAName ? UAName : '',
-				'pass': UAPass ? UAPass : ''
+				'login': UAName,
+				'pass': UAPass
 			}
 		},
 		methods: {

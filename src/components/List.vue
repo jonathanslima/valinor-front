@@ -39,8 +39,7 @@
     data () {
       return {
         books: [],
-        filterByBook: '',
-        infos: []
+        filterByBook: ''
       }
     },
     computed: {
@@ -51,6 +50,21 @@
 
         } else {
           return this.books;
+        }
+      }
+    },
+    methods:{
+      infinityScroll: function(paginationData){
+        let pgData = paginationData;
+        [].slice.call(document.querySelectorAll('.card')).filter(
+          (item, index)=> {
+            this.showFirstTwelveBooks(item, index, pgData)
+          }
+        )
+      },
+      showFirstTwelveBooks: function(item, index, pgData){
+        if(index > (pgData.itemsPerPage - 1)){
+          item.style.display = "none"
         }
       }
     },
@@ -68,10 +82,9 @@
             qtdPages: pages,
             itemsPerPage: viewed
           };
-          this.infos.push(pagination);
 
-        });   
-
+          this.infinityScroll(pagination) 
+        });
     }
   }
 </script>
