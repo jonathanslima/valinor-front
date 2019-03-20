@@ -48,9 +48,6 @@
 				sessionStorage.setItem('userAcess', '[{"name": "' + name + '","pass": "' + pass + '"}]');
 
 				this.$router.push('/list')
-
-				// JSON.parse(sessionStorage.getItem('userAcess'))[0].name
-				// JSON.parse(sessionStorage.getItem('userAcess'))[0].pass
 			}
 		}
 	}

@@ -4,6 +4,8 @@ import VueResource from 'vue-resource';
 import VueRouter from 'vue-router'
 import { routes } from './routes'
 
+import './directives/ShowingItems';
+
 export const serverBus = new Vue();
 
 Vue.use(VueRouter)
