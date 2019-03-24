@@ -64,7 +64,8 @@
       },
       showFirstTwelveBooks: function(item, index, pgData){
         if(index > (pgData.itemsPerPage - 1)){
-          item.style.display = "none"
+          item.style.display = "none";
+          item.style.opacity = "0"; 
         }
       }
     },
