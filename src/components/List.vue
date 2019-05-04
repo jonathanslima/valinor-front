@@ -70,7 +70,7 @@
       }
     },
     created(){ /* lifecycle hooks, the code below will be executed when component is created */
-      fetch('http://localhost:8080/api/importBooks.json')
+      fetch('https://valinor-vuejs.herokuapp.com/api/importBooks.json')
         .then(res => res.json())
         .then(book => this.books = book) 
         .then(book => {
